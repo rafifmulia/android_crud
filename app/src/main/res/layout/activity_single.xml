@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/myregistergradient"
+    tools:context=".SingleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Kode Angkot"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_kodeAngkot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:inputType="text"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Rute Angkot"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_ruteAngkot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:inputType="text"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Nama Supir"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_namaSupir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:inputType="text"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Nama Juragan"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_namaJuragan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:inputType="text"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Tanggal Pembuatan"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/edt_tanggalPembuatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:inputType="date"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"/>
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"
+                android:text="Edit" />
+
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/mybutton"
+                android:textColor="@android:color/background_dark"
+                android:textColorHighlight="@android:color/background_dark"
+                android:textColorHint="@android:color/background_dark"
+                tools:textColor="@android:color/background_dark"
+                android:text="Hapus" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/myregistergradient"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:scrollbars="vertical"
+    app:layout_optimizationLevel="standard">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/angkot" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_weight="1"
+        android:layoutMode="opticalBounds"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kode_angkot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="Kode Angkot"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/rute_angkot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="Rute Angkot"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/nama_supir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="Nama Supir"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/nama_juragan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="Nama Juragan"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tanggal_pembuatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="Tanggal Pembuatan"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
